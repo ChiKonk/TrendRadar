@@ -122,6 +122,16 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
 
+    - id: "Ben's bites"
+      name: "Ben's bites"
+      url: "https://rss.beehiiv.com/feeds/moS8GVKETl.xml?utm_source=bensbites&utm_medium=newsletter&utm_campaign=confirm-your-ben-s-bites-subscription"
+      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
+
+    - id: "TechCrunch"
+      name: "TechCrunch"
+      url: "https://techcrunch.com/feed/"
+      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
+      
     # 自定义源示例
     # - id: "Ben's bites"
     #   name: "Ben's bites"
